@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    gap: 12px;
 }
 
 body {
@@ -20,10 +21,32 @@ button {
     font-size: 16px;
 }
 
+button:hover {
+  background-color: #fd5d92;
+  transform: translateY(-1px);
+}
+
 #cidade {
     padding: 10px;
     font-size: 16px;
     border: 1px solid #9eff8a;
     border-radius: 4px;
     margin-right: 10px;
+}
+
+#status {
+  font-size: 14px;
+  color: #ff5ca0;
+  min-height: 18px;
+}
+
+#resultado {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 12px;
+  border-radius: 10px;
+  width: 260px;
+  text-align: left;
+  font-size: 14px;
+  word-break: break-word;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
