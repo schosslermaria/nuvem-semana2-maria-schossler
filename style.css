@@ -1,0 +1,29 @@
+.bloco1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcfef;
+    margin: 0;
+    padding: 0;
+}
+button {
+    background-color: #caf592;
+    color: rgb(77, 75, 76);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#cidade {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #9eff8a;
+    border-radius: 4px;
+    margin-right: 10px;
+}
